@@ -1,0 +1,126 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #deeff4;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  color: #cb1088;
+}
+
+h2, h3 {
+  font-size: 30px;
+  color:#163550;
+}
+
+.white_card {
+  background: white;
+  padding: 5px 10px;
+  border: 0,5px solid lightgrey;
+  margin: 40px 40px;
+  box-shadow: 2px 2px 3px #bcdfeb;
+  border-radius: 4px;
+  text-align: center;
+}
+.key_information {
+  font-size: 20px;
+}
+
+.list_inline > li {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+ }
+
+ul {
+  list-style: none;
+}
+.list_inline:hover{
+  opacity: 0.5;
+}
+
+#image {
+  border-radius: 50%;
+}
+
+.button_blue{
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 30px;
+  background: #84bacc;
+  border-radius: 2px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+#carte{
+  position: center;
+}
+.mapouter{position:center;text-align:center;height:500px;width:600px;}
+
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
+
+.bio{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+}
+.emoji {
+  padding: 3rem;
+  font-size: 4rem;
+  transition: font-size .1s ease-in-out;
+  display: inline-block;
+}
+
+.emoji:hover {
+  font-size: 6rem;
+}
+
+.emoji--happy:before {
+  display: inline-block;
+  content: '🙂';
+}
+
+.emoji--happy:hover:before {
+  display: inline-block;
+  content: '😄';
+}
+
+.emoji--grimacing:before {
+  display: inline-block;
+  content: '😬';
+}
+
+.emoji--grimacing:hover:before {
+  display: inline-block;
+  content: '😁';
+}
+
+.emoji--unicorn:before {
+  content: '🦄';
+}
+
+.emoji--unicorn:hover:before {
+  content: '✨';
+
+
